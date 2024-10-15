@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.ext.declarative import DeclarativeMeta
 import json
 import os
-from  dotenv import load_dotenv
+# from  dotenv import load_dotenv
 
 SQLALCHEMY_DATABASE_URL = os.getenv("POSTGRES_URL")
 print(SQLALCHEMY_DATABASE_URL)
